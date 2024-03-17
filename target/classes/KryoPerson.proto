@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package com.linmx;
+
+option java_package = "com.linmx";
+option java_outer_classname = "KryoPerson";
+
+message Person {
+  optional string name = 1;
+  optional int32 age = 3;
+}
