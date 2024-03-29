@@ -1,6 +1,6 @@
 package com.serialize;
 
-import com.linmx.KryoPerson;
+import com.serialize.data.KryoPerson;
 import lombok.SneakyThrows;
 
 import java.io.FileInputStream;

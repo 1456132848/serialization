@@ -2,7 +2,7 @@
 // source: KryoPerson.proto
 // Protobuf Java Version: 4.26.0
 
-package com.linmx;
+package com.serialize.data;
 
 public final class KryoPerson {
   private KryoPerson() {}
@@ -25,7 +25,7 @@ public final class KryoPerson {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   public interface PersonOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:com.linmx.Person)
+      // @@protoc_insertion_point(interface_extends:com.serialize.data.Person)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -57,11 +57,11 @@ public final class KryoPerson {
     int getAge();
   }
   /**
-   * Protobuf type {@code com.linmx.Person}
+   * Protobuf type {@code com.serialize.data.Person}
    */
   public static final class Person extends
       com.google.protobuf.GeneratedMessage implements
-      // @@protoc_insertion_point(message_implements:com.linmx.Person)
+      // @@protoc_insertion_point(message_implements:com.serialize.data.Person)
       PersonOrBuilder {
   private static final long serialVersionUID = 0L;
     static {
@@ -83,15 +83,15 @@ public final class KryoPerson {
 
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.linmx.KryoPerson.internal_static_com_linmx_Person_descriptor;
+      return KryoPerson.internal_static_com_linmx_Person_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.linmx.KryoPerson.internal_static_com_linmx_Person_fieldAccessorTable
+      return KryoPerson.internal_static_com_linmx_Person_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.linmx.KryoPerson.Person.class, com.linmx.KryoPerson.Person.Builder.class);
+              KryoPerson.Person.class, KryoPerson.Person.Builder.class);
     }
 
     private int bitField0_;
@@ -209,10 +209,10 @@ public final class KryoPerson {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.linmx.KryoPerson.Person)) {
+      if (!(obj instanceof KryoPerson.Person)) {
         return super.equals(obj);
       }
-      com.linmx.KryoPerson.Person other = (com.linmx.KryoPerson.Person) obj;
+      KryoPerson.Person other = (KryoPerson.Person) obj;
 
       if (hasName() != other.hasName()) return false;
       if (hasName()) {
@@ -248,44 +248,44 @@ public final class KryoPerson {
       return hash;
     }
 
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(byte[] data)
+    public static KryoPerson.Person parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(java.io.InputStream input)
+    public static KryoPerson.Person parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -293,26 +293,26 @@ public final class KryoPerson {
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
 
-    public static com.linmx.KryoPerson.Person parseDelimitedFrom(java.io.InputStream input)
+    public static KryoPerson.Person parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input);
     }
 
-    public static com.linmx.KryoPerson.Person parseDelimitedFrom(
+    public static KryoPerson.Person parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessage
           .parseWithIOException(PARSER, input);
     }
-    public static com.linmx.KryoPerson.Person parseFrom(
+    public static KryoPerson.Person parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -325,7 +325,7 @@ public final class KryoPerson {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.linmx.KryoPerson.Person prototype) {
+    public static Builder newBuilder(KryoPerson.Person prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -341,26 +341,26 @@ public final class KryoPerson {
       return builder;
     }
     /**
-     * Protobuf type {@code com.linmx.Person}
+     * Protobuf type {@code com.serialize.data.Person}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessage.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:com.linmx.Person)
-        com.linmx.KryoPerson.PersonOrBuilder {
+        // @@protoc_insertion_point(builder_implements:com.serialize.data.Person)
+        KryoPerson.PersonOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.linmx.KryoPerson.internal_static_com_linmx_Person_descriptor;
+        return KryoPerson.internal_static_com_linmx_Person_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessage.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.linmx.KryoPerson.internal_static_com_linmx_Person_fieldAccessorTable
+        return KryoPerson.internal_static_com_linmx_Person_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.linmx.KryoPerson.Person.class, com.linmx.KryoPerson.Person.Builder.class);
+                KryoPerson.Person.class, KryoPerson.Person.Builder.class);
       }
 
-      // Construct using com.linmx.KryoPerson.Person.newBuilder()
+      // Construct using com.serialize.data.KryoPerson.Person.newBuilder()
       private Builder() {
 
       }
@@ -382,17 +382,17 @@ public final class KryoPerson {
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.linmx.KryoPerson.internal_static_com_linmx_Person_descriptor;
+        return KryoPerson.internal_static_com_linmx_Person_descriptor;
       }
 
       @java.lang.Override
-      public com.linmx.KryoPerson.Person getDefaultInstanceForType() {
-        return com.linmx.KryoPerson.Person.getDefaultInstance();
+      public KryoPerson.Person getDefaultInstanceForType() {
+        return KryoPerson.Person.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.linmx.KryoPerson.Person build() {
-        com.linmx.KryoPerson.Person result = buildPartial();
+      public KryoPerson.Person build() {
+        KryoPerson.Person result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -400,14 +400,14 @@ public final class KryoPerson {
       }
 
       @java.lang.Override
-      public com.linmx.KryoPerson.Person buildPartial() {
-        com.linmx.KryoPerson.Person result = new com.linmx.KryoPerson.Person(this);
+      public KryoPerson.Person buildPartial() {
+        KryoPerson.Person result = new KryoPerson.Person(this);
         if (bitField0_ != 0) { buildPartial0(result); }
         onBuilt();
         return result;
       }
 
-      private void buildPartial0(com.linmx.KryoPerson.Person result) {
+      private void buildPartial0(KryoPerson.Person result) {
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) != 0)) {
@@ -423,16 +423,16 @@ public final class KryoPerson {
 
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.linmx.KryoPerson.Person) {
-          return mergeFrom((com.linmx.KryoPerson.Person)other);
+        if (other instanceof KryoPerson.Person) {
+          return mergeFrom((KryoPerson.Person)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.linmx.KryoPerson.Person other) {
-        if (other == com.linmx.KryoPerson.Person.getDefaultInstance()) return this;
+      public Builder mergeFrom(KryoPerson.Person other) {
+        if (other == KryoPerson.Person.getDefaultInstance()) return this;
         if (other.hasName()) {
           name_ = other.name_;
           bitField0_ |= 0x00000001;
@@ -614,16 +614,16 @@ public final class KryoPerson {
         return this;
       }
 
-      // @@protoc_insertion_point(builder_scope:com.linmx.Person)
+      // @@protoc_insertion_point(builder_scope:com.serialize.data.Person)
     }
 
-    // @@protoc_insertion_point(class_scope:com.linmx.Person)
-    private static final com.linmx.KryoPerson.Person DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:com.serialize.data.Person)
+    private static final KryoPerson.Person DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.linmx.KryoPerson.Person();
+      DEFAULT_INSTANCE = new KryoPerson.Person();
     }
 
-    public static com.linmx.KryoPerson.Person getDefaultInstance() {
+    public static KryoPerson.Person getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -659,7 +659,7 @@ public final class KryoPerson {
     }
 
     @java.lang.Override
-    public com.linmx.KryoPerson.Person getDefaultInstanceForType() {
+    public KryoPerson.Person getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 

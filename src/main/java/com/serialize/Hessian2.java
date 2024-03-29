@@ -2,7 +2,7 @@ package com.serialize;
 
 import com.caucho.hessian.io.Hessian2Input;
 import com.caucho.hessian.io.Hessian2Output;
-import com.linmx.Person;
+import com.serialize.data.Person;
 import lombok.SneakyThrows;
 
 import java.io.FileInputStream;

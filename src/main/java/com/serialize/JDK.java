@@ -1,6 +1,6 @@
 package com.serialize;
 
-import com.linmx.Person;
+import com.serialize.data.Person;
 import lombok.SneakyThrows;
 
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.linmx;
+package com.serialize.data;
 
 import lombok.Data;
 

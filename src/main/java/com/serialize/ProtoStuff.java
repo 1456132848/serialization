@@ -1,6 +1,6 @@
 package com.serialize;
 
-import com.linmx.Person;
+import com.serialize.data.Person;
 import io.protostuff.LinkedBuffer;
 import io.protostuff.ProtostuffIOUtil;
 import io.protostuff.Schema;

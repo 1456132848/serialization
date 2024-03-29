@@ -3,7 +3,7 @@ package com.serialize;
 import com.esotericsoftware.kryo.Kryo;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
-import com.linmx.Person;
+import com.serialize.data.Person;
 import lombok.SneakyThrows;
 
 import java.io.FileInputStream;
